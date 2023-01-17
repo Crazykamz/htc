@@ -1,0 +1,199 @@
+images/iphone6.png
+<section id="services">
+  <div class="container">
+    <div class="row align-items-center my-4">
+    <div class="col-lg-6 about-img">
+      <img src="https://smartcoolac.in/ac-repair-service-in-chennai/assets/img/installation.webp" alt class="img-fluid rounded rounded w-100">
+    </div>
+    <div class="col-lg-6 content">
+      <h2>Air Conditioner Services</h2>
+
+      <p>
+        A non-serviced AC may consume more power to deliver cool air or might not provide effective cooling because of reasons like gas leakage.
+      </p>
+      <ul>
+        <li> <img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+        Air filter and fin cleaning.</li>
+        <li><img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+        Ac condenser & evaporator coil and fan cleaning</li>
+        <li> <img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+        Drain cleaning, leakage check, and coolant level check.</li>
+        <li> <img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+        Overall inspection of the AC Unit.</li>
+      </ul>
+      <p>
+        Regular AC servicing can boost AC performance and do reduce the electricity bills and you will save the money.
+      </p>
+
+    </div>
+    </div>
+  </div>
+</section>
+
+
+class="img-fluid rounded rounded w-120"
+
+
+
+<section id="services">
+  <div>
+    <table>
+      <tr>
+        <td>
+          <img class="repair" src="https://smartcoolac.in/ac-repair-service-in-chennai/assets/img/installation.webp" alt="">
+        </td>
+        <td class="content">
+          <h2>Air Conditioner Services</h2>
+          <p>
+            A non-serviced AC may consume more power to deliver cool air or might not provide effective cooling because of reasons like gas leakage.
+          </p>
+          <ul>
+            <li> <img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+            Air filter and fin cleaning.</li>
+            <li><img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+            Ac condenser & evaporator coil and fan cleaning</li>
+            <li> <img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+            Drain cleaning, leakage check, and coolant level check.</li>
+            <li> <img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+            Overall inspection of the AC Unit.</li>
+          </ul>
+          <p>
+            Regular AC servicing can boost AC performance and do reduce the electricity bills and you will save the money.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+</section>
+
+
+
+#services{
+  display: flex;
+  background-color: #BFEAF5;
+  padding: 5px 15px;
+}
+
+.bicircle{
+  width: 5%;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+/* @media (max-width: 768px)
+ img {
+    margin-left: 0;
+    padding: 100px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+} */
+
+.repair{
+  width: 40%;
+  margin-left: 10px;
+  padding-right: 3rem;
+}
+.content{
+  width: 40%;
+  text-align: left;
+}
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+flexboxx
+
+<section id="services">
+  <div class="container">
+    <div class="text">
+      <h2>Air Conditioner Services</h2>
+      <p>
+        A non-serviced AC may consume more power to deliver cool air or might not provide effective cooling because of reasons like gas leakage.
+      </p>
+      <ul>
+        <li> <img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+          Air filter and fin cleaning.</li>
+        <li><img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+          Ac condenser & evaporator coil and fan cleaning</li>
+        <li> <img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+          Drain cleaning, leakage check, and coolant level check.</li>
+        <li> <img class="bicircle" src="https://cdn-icons-png.flaticon.com/512/3133/3133810.png" alt="bi-circle">
+          Overall inspection of the AC Unit.</li>
+      </ul>
+      <p>
+        Regular AC servicing can boost AC performance and do reduce the electricity bills and you will save the money.
+      </p>
+    </div>
+    <div>
+      <img class="repair" src="https://smartcoolac.in/ac-repair-service-in-chennai/assets/img/installation.webp" alt="">
+    </div>
+  </div>
+
+  </div>
+
+</section>
+
+
+stylesheet
+
+#services{
+  background-color:  #BFEAF5;
+  padding: 5% 10%;
+}
+.container{
+  display: flex;
+}
+.text{
+  font-family: "Montserrat";
+  width: 50%
+}
+.repair{
+  height: 250px;
+  float: right;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  max-width: 100%;
+  max-height:100%;
+}
+.bicircle{
+  width: 4%;
+}
+
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+-----------------------------------------------------------------------------------------------------
+
+
+carousel
+
+.carousel-inner{
+  padding-left: 300px;
+}
+.d-block{
+  width: 60%;
+}
+.carousel-control-prev{
+  background-color: #434242;
+}
+.carousel-control-next{
+  background-color: #434242;
+}
+.gallery{
+  font-family: "Montserrat";
+  margin-bottom: 2rem;
+  font-weight: bold;
+
+}
